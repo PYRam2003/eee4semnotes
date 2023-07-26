@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .navbar-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-link:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+  
+
+
+
+
+
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1,h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .folder-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .folder-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .folder-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #021e3a;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .folder-name {
+    font-size: 16px;
+  }
+  
+  
+  
+  
+  
+
+
+
+
+
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .folder-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .folder-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .folder-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #000307;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .folder-link {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .folder-link:hover {
+    text-decoration: underline;
+  }
+ 
+  
+
+
